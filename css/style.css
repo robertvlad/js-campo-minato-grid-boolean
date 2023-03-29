@@ -3,3 +3,22 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: rgb(89, 163, 243);
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.container{
+    width: 650px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 65px;
+    height: 65px;
+    border: 1px solid black;
+}
